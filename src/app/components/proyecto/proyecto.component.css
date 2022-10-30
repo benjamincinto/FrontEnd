@@ -1,0 +1,55 @@
+.row {
+    clear: both;
+    padding: 20px;
+    background-color: #C2CAD5;
+    margin: 0;   
+    width: 100%;
+}
+
+.frow {
+    clear: both;
+    display: flex;
+}
+
+.frow .col {
+    display: block;
+    float: left;
+    background-color: #C2CAD5;
+}
+
+.frow .col:first-child {
+    margin-left: 0;
+}
+
+.frow .col1 {
+    width: 70%;
+}
+
+.frow .col2 {
+    width: 30%;
+}
+
+
+@media only screen and (max-width: 575px) {
+    .col {
+        margin-left: 0 !important;
+    }
+
+    .frow .col1,
+    .frow .col2 {
+    width: 100%;
+    }
+
+.frow {
+    flex-direction: column;
+    }
+}
+
+.img-proyecto {
+    margin-top: 5%;
+    box-shadow: 10px 10px 30px #000000;
+    box-shadow: ejeX ejeY difumasion color;
+    width: 70%;
+    position: center;
+    margin-bottom: 5%;
+}

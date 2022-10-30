@@ -1,0 +1,11 @@
+div{
+    background-color:#363231;
+    margin: 0;   
+    padding: 0;
+    width: 100%;
+}
+
+app-social{
+    float: right;
+    margin-top: 15px;
+}

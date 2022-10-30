@@ -1,0 +1,12 @@
+.row{
+    background-color: #C2CAD5;
+    padding: 20px;
+    margin: 0;   
+    width: 100%;
+}
+
+.circulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

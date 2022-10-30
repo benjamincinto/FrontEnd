@@ -1,0 +1,17 @@
+.row{
+    background: #363231;
+    margin: 0;   
+    padding: 0;
+    width: 100%;
+}
+footer{
+    color: #E3E7E8;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px -2px 5px #999 ;
+}
+
+p{
+    margin-top: 15px;
+}
